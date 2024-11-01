@@ -68,7 +68,7 @@ const HabitPage: React.FC = () => {
   }, []);
 
   return (
-    <SafeAreaView className="flex-1 bg-black">
+    <SafeAreaView className="flex-1 bg-[#151818]">
       <ScrollView className="">
         <Text className="text-5xl font-bold mb-4 text-center text-white uppercase">
           {currentHabit.name}
